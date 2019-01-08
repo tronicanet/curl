@@ -1,3 +1,6 @@
+// Este ejemplo comprueba que características están disponibles en esta versión de cURL 
+// usando la máscara ‘features’ devuelta por curl_version().
+
 <?php
 // Obtener array de la versión de curl
 $version = curl_version();
