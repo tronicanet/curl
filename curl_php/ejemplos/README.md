@@ -4,6 +4,7 @@
 version de curl
 
 ```php
+
 <?php
 
 $version = curl_version();
@@ -22,6 +23,7 @@ foreach($bitfields as $feature)
 }
 ?>
 ```
+
 # ver pagina web
 
 ```php
