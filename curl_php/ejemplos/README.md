@@ -15,7 +15,6 @@ $bitfields = Array(
             'CURL_VERSION_LIBZ'
    );
  
- 
 foreach($bitfields as $feature)
 {
     echo $feature . ($version['features'] & constant($feature) ? ' coincide' : ' no coincide');
